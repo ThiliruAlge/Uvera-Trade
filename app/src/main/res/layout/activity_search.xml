@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:id="@+id/info8"
+        android:layout_width="142dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Item name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="561dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:background="@drawable/round_btn"
+        app:menu="@menu/bottom_menu"
+        app:itemIconSize="40dp"
+        app:itemIconTint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/info10"
+        android:layout_width="142dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="price"
+        android:textColor="@color/gray"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/info11"
+        android:layout_width="142dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="price"
+        android:textColor="@color/gray"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <TextView
+        android:id="@+id/info9"
+        android:layout_width="142dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Item name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="561dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/loginLogo7"
+        android:layout_width="163dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <ImageView
+        android:id="@+id/loginLogo8"
+        android:layout_width="163dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <ImageView
+        android:id="@+id/loginLogo3"
+        android:layout_width="289dp"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/imagecar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <ImageView
+        android:id="@+id/loginLogo5"
+        android:layout_width="163dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <ImageView
+        android:id="@+id/loginLogo6"
+        android:layout_width="163dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <ImageView
+        android:id="@+id/loginLogo4"
+        android:layout_width="252dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/Audi"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="See all"
+        android:gravity="right"
+        android:textColor="@color/gray"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="153dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/slider"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/option"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="37dp"
+        android:layout_height="33dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/bell"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/search_view_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:queryHint="Search Here ..."
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="76dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

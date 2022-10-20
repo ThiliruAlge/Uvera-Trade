@@ -24,14 +24,14 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buybtn"
         android:layout_width="357dp"
-        android:layout_height="wrap_content"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="27dp"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="@color/orange"
         android:text="Buy Now"
         android:textSize="25dp" />
 
@@ -75,7 +75,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="658dp"
-        app:srcCompat="@android:drawable/ic_menu_share"
+        android:src="@drawable/sharebtn"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="337dp"
         tools:layout_editor_absoluteY="43dp" />
@@ -92,7 +92,25 @@
         android:layout_marginTop="91dp"
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="195dp"
-        android:src="" />
+        android:src="@drawable/imagegrid" />
+
+    <ImageView
+        android:id="@+id/loginLogo10"
+        android:layout_width="322dp"
+        android:layout_height="405dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/imagenew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="259dp" />
 
     <ImageView
         android:id="@+id/imageView"

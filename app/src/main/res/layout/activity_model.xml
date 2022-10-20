@@ -73,11 +73,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="36dp"
+        android:layout_height="24dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        app:srcCompat="@android:drawable/ic_menu_share"
+        android:src="@drawable/sharebtn"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="345dp"
         tools:layout_editor_absoluteY="16dp" />
@@ -93,6 +93,7 @@
         android:text="Buy Now"
         android:textColor="@color/white"
         android:textSize="25dp"
+        android:background="@drawable/btn_style"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -135,11 +136,25 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:src=""
+        android:src="@drawable/imagegrid"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/loginLogo9"
+        android:layout_width="251dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/imagenew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="259dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -190,8 +205,9 @@
     <TextView
         android:layout_width="339dp"
         android:layout_height="97dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam nam eu nulla a. Vestibulum aliquet facilisi interdum nibh blandit. "
         tools:ignore="MissingConstraints"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="408dp" />
 
@@ -213,7 +229,7 @@
         android:background="@color/gray"
         android:text="360° Camera"
         android:textColor="@color/white"
-        tools:ignore="MissingConstraints"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="515dp" />
 

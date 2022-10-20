@@ -16,12 +16,31 @@
         android:backgroundTint="@color/green"
         android:text="Sell Your Property"
         android:textColor="@color/white"
+        android:background="@drawable/btn_style"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+
+    <Spinner
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="233dp"
+        android:popupBackground="@color/gray"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:popupBackground="@color/gray"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -117,6 +136,22 @@
         android:textSize="17dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="153dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="207dp" />
 
@@ -125,9 +160,9 @@
         android:layout_width="81dp"
         android:layout_height="49dp"
         android:text="Details"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck"
         tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="158dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="158dp" />
 
     <EditText
         android:layout_width="360dp"
@@ -283,27 +318,12 @@
         tools:layout_editor_absoluteY="158dp"
         tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/menu"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
-        android:layout_width="160dp"
-        android:layout_height="48dp"
-        android:hint="Details"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="233dp">
-
-        <AutoCompleteTextView
-            android:layout_width="160dp"
-            android:layout_height="48dp"
-            android:inputType="none" />
-    </com.google.android.material.textfield.TextInputLayout>
-
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="95dp"
         android:layout_height="46dp"
         android:text="Details"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="361dp" />
 
@@ -312,6 +332,7 @@
         android:layout_width="95dp"
         android:layout_height="46dp"
         android:text="Details"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="361dp" />
 
@@ -320,6 +341,7 @@
         android:layout_width="95dp"
         android:layout_height="46dp"
         android:text="Details"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="392dp" />
 
@@ -328,6 +350,7 @@
         android:layout_width="95dp"
         android:layout_height="46dp"
         android:text="Details"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="392dp" />
 
