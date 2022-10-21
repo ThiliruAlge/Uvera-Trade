@@ -32,6 +32,8 @@
             android:layout_height="45dp"
             android:layout_margin="20dp"
             android:src="@drawable/apple" />
+
+
     </LinearLayout>
 
     <TextView
@@ -48,6 +50,9 @@
         android:text="Welcome text"
         android:textColor="@color/black"
         android:textSize="20dp" />
+
+
+
 
     <ImageView
         android:id="@+id/loginLogo"
